@@ -1,0 +1,59 @@
+{
+	"credit": "Made by Nesios with Blockbench",
+	"parent": "nandieb_glass",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "./3d_glass",
+		"particle": "./3d_glass"
+	},
+	"elements": [
+		{
+			"name": "Hat Layer",
+			"from": [3.5, 0.5, 3.5],
+			"to": [12.5, 9.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 7, 8, 14], "texture": "#0"},
+				"east": {"uv": [8, 7, 16, 14], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 7], "texture": "#0"},
+				"up": {"uv": [0, 7, 8, 14], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8, 7, 0, 14], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-172.07, -6.98, -94.7],
+			"translation": [1.25, 0, 0.5],
+			"scale": [0.75, 0.75, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-172.07, -6.98, -94.7],
+			"translation": [1.25, 0, 0.5],
+			"scale": [0.75, 0.75, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-17.39, -57.67, -82.05],
+			"translation": [0, 1.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-17.39, -57.67, -82.05],
+			"translation": [0, 1.25, 0]
+		},
+		"gui": {
+			"translation": [0, 1.5, 0],
+			"scale": [1.42, 1.42, 1]
+		},
+		"head": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 3.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [180, 0, 180],
+			"translation": [0, 2.25, 4.25],
+			"scale": [1.55, 1.55, 1]
+		}
+	}
+}
